@@ -1,0 +1,27 @@
+:root {
+  /* Colors */
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-light: hsl(0, 0%, 20%);
+  --grey-medium: hsl(0, 0%, 12%);
+  --grey-dark: hsl(0, 0%, 8%);
+
+  /* Font */
+  --ff-inter: "Inter", sans-serif;
+
+  --fw-small: 400;
+  --fw-medium: 600;
+  --fw-large: 700;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
